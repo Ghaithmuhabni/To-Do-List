@@ -24,7 +24,7 @@ class RepTextField extends StatelessWidget {
           controller: controller,
           maxLines: !isForDescription ? 6 : null,
           cursorHeight: !isForDescription ? 60 : null,
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Colors.black, fontSize: 30),
           decoration: InputDecoration(
               border: isForDescription ? InputBorder.none : null,
               counter: Container(),
@@ -33,6 +33,7 @@ class RepTextField extends StatelessWidget {
                   ? const Icon(
                       Icons.bookmark_border,
                       color: Colors.grey,
+                      size: 40,
                     )
                   : null,
               enabledBorder: UnderlineInputBorder(

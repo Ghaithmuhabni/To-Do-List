@@ -16,7 +16,6 @@ class dateTimeSelectionWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var textTheme = Theme.of(context).textTheme;
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -34,20 +33,20 @@ class dateTimeSelectionWidget extends StatelessWidget {
               padding: const EdgeInsets.only(left: 10),
               child: Text(
                 title,
-                style: textTheme.headlineSmall,
+                style: TextStyle(fontSize: 30, color: Colors.grey[700]),
               ),
             ),
             Container(
               margin: EdgeInsets.only(right: 10),
               width: isTime ? 150 : 80,
-              height: 35,
+              height: 55,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   color: Colors.grey.shade100),
               child: Center(
                   child: Text(
                 time,
-                style: textTheme.titleSmall,
+                style: TextStyle(fontSize: 30, color: Colors.grey[700]),
               )),
             )
           ],
