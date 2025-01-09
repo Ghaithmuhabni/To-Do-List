@@ -1,3 +1,6 @@
+//bu dosya dosyası, Hive'ın Task modelini nasıl depolayacağını ve geri yükleyeceğini anlamasına yardımcı olur.
+//Nesneleri depolanabilir formata dönüştüren ve tersine çeviren fonksiyonlar içerir.
+
 part of 'task.dart';
 
 class TaskAdapter extends TypeAdapter<Task> {

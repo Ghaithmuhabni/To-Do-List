@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_application_1/utils/app_colors.dart';
 import 'package:flutter_application_1/views/tasks/widget/task_view.dart';
 

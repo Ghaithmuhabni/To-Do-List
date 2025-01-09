@@ -1,3 +1,5 @@
+//bu dosya görevi temsil eden modeli tanımlar.
+
 import 'package:hive/hive.dart';
 import 'package:uuid/uuid.dart';
 
