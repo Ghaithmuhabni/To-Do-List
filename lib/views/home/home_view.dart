@@ -26,7 +26,7 @@ class _HomeViewState extends State<HomeView> {
     if (task.isNotEmpty) {
       return task.length;
     } else {
-      return 3;
+      return 1;
     }
   }
 
